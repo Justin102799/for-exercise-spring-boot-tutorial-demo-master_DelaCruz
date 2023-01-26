@@ -49,5 +49,6 @@ class StudentRepositoryTest {
 //        Then the name attribute of all student entities retrieved from database should equal "Test Name"
         assertEquals(result.get(0).getName(), expectedStudentEntity.getName());
         assertEquals(result.get(1).getName(), expectedStudentEntity2.getName());
+
     }
 }
